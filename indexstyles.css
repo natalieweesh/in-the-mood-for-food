@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body{
+	background-color: #000;
+	font-family: Courier, serif;
+	
+}
+#meatbackground{
+	background-image: url("meattile.png");
+	background-repeat: repeat;
+}
+#treebackground{
+	background-image: url("treehuggertile.png");
+	background-repeat: repeat;
+}
+#sweetbackground{
+	background-image: url("sweettoothtile.png");
+	background-repeat: repeat;	
+}
+#globebackground{
+	background-image: url("globetrottertile.png");
+	background-repeat: repeat;	
+}
+#foodsnobbackground{
+	background-image: url("foodsnobtile.png");
+	background-repeat: repeat;
+}
+#comfortbackground{
+	background-image: url("comforttile.png");
+	background-repeat: repeat;
+}
+#japanesebackground{
+	background-image: url("japanesetile.png");
+	background-repeat: repeat;
+}
+#box{
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	padding-top: 80px;
+}
+#boxMain{
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+img {
+	display: inline-block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+
+}
+#nextnav{
+	position: fixed;	
+	width: 800px;
+	
+}
+#nextnav ul {
+	display: block;
+	margin-top: -400px;
+	margin-left: -40px;
+}
+#nextnav ul li {
+	display: inline;
+
+}
+
+#nextnav ul li a {
+	width: 260px;
+	height: 130px;
+	display: inline-block;
+	background-color: transparent;
+
+}
+
+.nextRow{
+	display: block;
+}
+
+#subtext {
+	position: relative;
+	text-align: center;
+	top: 100px;
+}
+
+
+
+#headerboxtest {
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	width: 908px;
+	height: 150px;
+	left: 0px;
+	
+}
+
+#middlebox {
+	width: 800px;
+	background-color: white;
+	float: left;
+	margin-left: 100px;
+	padding-top: 160px;
+	border-radius: 15px;
+	margin-bottom: 90px;
+}
+#middleboxlucky {
+	width: 800px;
+	background-color: transparent;
+	color: white;
+	float: left;
+	margin-left: 100px;
+	border-radius: 15px;
+	margin-bottom: 90px;
+}
+#middleboxlucky ul li{
+	list-style-type: square;
+}
+
+#middlebox p {
+	padding: 0 15px;
+}
+
+#leftbox {
+	background-color: transparent;
+	width: 100px;
+	height: 175px;
+	float: left;
+	position: absolute;
+	left: 8px;
+	background-image: url("doodle3-4.png");
+	z-index: -1;
+	top: 200px;
+}
+#leftboxlucky {
+	background-color: transparent;
+	width: 100px;
+	height: 175px;
+	float: left;
+	position: absolute;
+	left: 8px;
+	background-image: url("doodle3-3.png");
+	z-index: -1;
+	top: 150px;
+}
+#leftbox a {
+	display: inline-block;
+	width: 100px;
+	height: 175px;
+	left: 8px;
+}
+#leftboxlucky a {
+	display: inline-block;
+	width: 100px;
+	height: 175px;
+	left: 8px;
+}
+
+#subtext {
+	top: 0px;
+	background-color: transparent;
+	color: white;
+	font-family: courier;
+	margin: 0 auto;
+	width: 800px;
+}
+#subtext p {
+	margin-top: -30px;
+}
+
+.righty {
+	display: inline;
+	float: right;
+	margin: 5px;
+}
+
+p a {
+	text-decoration: none;
+	color: #006B70;
+}
+p a:hover {
+	color: #B30000;
+}
